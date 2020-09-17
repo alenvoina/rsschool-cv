@@ -40,5 +40,5 @@ Laboratory works and course works in the college.
 * Workshops from Glo Academy.
 
 ### English
-My english level is pre-intermediate(A).
+My english level is pre-intermediate(A2).
 
