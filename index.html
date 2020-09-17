@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="container">
+        <h1 class="rs">rsschool-cv</h1>
+    </header>
+    <main class="container">
+   
+    <h2>Voina Alen</h2>
+    <h3>Contacts</h3>
+    <ul>
+        <li>gmail: <a href ="mailto:lyustra2001@gmail.com">lyustra2001@gmail.com</a></li>
+        <li>phone:  <a href ="tel: +375 (44) 538-11-51">+375 (44) 538-11-51</a></li>
+        <li>telegram: @Belosnejka1</li>
+    </ul>
+    <h3>Summary</h3>
+    <p>I want to be a programmer in the famous belorussian company.</p>
+    <h3>Skills</h3>
+    <ul>
+        <li>HTML5;</li>
+        <li>CSS3;</li>
+        <li>SQL;</li>
+        <li>JS.</li>
+    </ul>
+    <h3>Code examples</h3>
+    <code id="code">
+        const closeModal = event => {
+        const target = event.target
+    
+        if(target.closest('.modal__close') ||
+            target.classList.contains('modal') ||
+            event.code === 'Escape') {
+                modalAdd.classList.Add('hide')
+                modalItem.classList.Add('hide')
+                document.removeEventListener('keydown', closeModal)
+                modalSubmit.reset()
+                checkForm()
+            }
+    }
+    </code>
+    <h3>Experience</h3>
+    <p>Laboratory works and course works in the college.</p>
+    <h3>Education</h3>
+    <ul>
+        <li>College of Electronics;</li>
+        <li>Workshops from Glo Academy.</li>
+    </ul>
+    <h3>English</h3>
+    <p>My english level is pre-intermediate(A2).</p>
+    </main>
+    
+</body>
+</html>
